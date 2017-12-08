@@ -1,3 +1,3 @@
-#readme
+jason-scss
 
-It's bolierplate project
+Basic Sass utilities and mixins.
