@@ -10,7 +10,7 @@
   }
 }
 
-@include generate-margin(mt, top, $margin-top-range: 10);
-@include generate-margin(mr, right, $margin-right-range: 10);
-@include generate-margin(mb, bottom, $margin-bottom-range: 10);
-@include generate-margin(ml, left, $margin-left-range: 10);
+@include generate-margin(mt, top, $margin-top-range);
+@include generate-margin(mr, right, $margin-right-range);
+@include generate-margin(mb, bottom, $margin-bottom-range);
+@include generate-margin(ml, left, $margin-left-range);
