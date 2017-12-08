@@ -1,0 +1,17 @@
+{
+  "name": "jason-scss",
+  "version": "0.0.1",
+  "description": "Jason - basic sass utilities and mixins",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jarekw87/jason-scss.git"
+  },
+  "keywords": [
+    "scss",
+    "utils",
+    "mixins"
+  ],
+  "author": "Jarosław Woś",
+  "license": "MIT"
+}

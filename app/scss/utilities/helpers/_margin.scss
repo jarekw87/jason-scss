@@ -1,0 +1,16 @@
+// ------------------------------------
+//  #MARGIN
+// ------------------------------------
+
+@mixin generate-margin($prefix, $type, $range) {
+  @for $i from 0 through $range {
+    .#{$prefix}-#{$i}0 {
+      margin-#{$type}: 1rem * $i !important;
+    }
+  }
+}
+
+@include generate-margin(mt, top, $margin-top-range: 10);
+@include generate-margin(mr, right, $margin-right-range: 10);
+@include generate-margin(mb, bottom, $margin-bottom-range: 10);
+@include generate-margin(ml, left, $margin-left-range: 10);

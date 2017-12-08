@@ -1,0 +1,16 @@
+// ------------------------------------
+//  #PADDING
+// ------------------------------------
+
+@mixin generate-padding($prefix, $type, $range) {
+  @for $i from 0 through $range {
+    .#{$prefix}-#{$i}0 {
+      padding-#{$type}: 1rem * $i !important;
+    }
+  }
+}
+
+@include generate-padding(pt, top, $padding-top-range: 10);
+@include generate-padding(pr, right, $padding-right-range: 10);
+@include generate-padding(pb, bottom, $padding-bottom-range: 10);
+@include generate-padding(pl, left, $padding-left-range: 10);

@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    indentation: 2,
+    max-nesting-depth: 3,
+    order/order: ["custom-properties", "dollar-variables", "declarations"],
+    order/properties-alphabetical-order: null,
+    "at-rule-blacklist": ["debug"]
+  }
+}

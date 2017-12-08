@@ -1,0 +1,21 @@
+// ------------------------------------
+//  #TEXT
+// ------------------------------------
+
+@mixin text-truncate($width: 100%) {
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+%word-wrap {
+  word-wrap: break-word; // old method
+  overflow-wrap: break-word;
+}
+
+%hide-text {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}

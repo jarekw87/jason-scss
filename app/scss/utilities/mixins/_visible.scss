@@ -1,0 +1,49 @@
+// ------------------------------------
+//  #VISIBLE
+// ------------------------------------
+
+.hide {
+  display: none !important;
+}
+
+@mixin hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.hidden {
+  @include hidden;
+}
+
+@mixin visible {
+  visibility: visible;
+}
+
+.visible {
+  @include visible;
+}
+
+@mixin invisible {
+  visibility: hidden;
+}
+
+.invisible {
+  @include invisible;
+}
+
+@mixin visible($state: 'block') {
+  display: unquote($state);
+  visibility: visible;
+}
+
+.visible-inline {
+  @include visible('inline');
+}
+
+.visible-inline-block {
+  @include visible('inline-block');
+}
+
+.visible-td {
+  @include visible('table-cell');
+}

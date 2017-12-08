@@ -1,0 +1,20 @@
+// ------------------------------------
+//  #ALIGN
+// ------------------------------------
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+%centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.centered {
+  @extend %centered;
+}

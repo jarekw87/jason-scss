@@ -1,0 +1,11 @@
+# Folders to ignore
+node_modules/
+bower_components/
+_design/
+coverage/
+.idea/
+.tmp/
+dist/
+
+# Files to ignore
+npm-debug.log
