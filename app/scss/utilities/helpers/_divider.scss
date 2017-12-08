@@ -5,7 +5,7 @@
 .divider {
   height: 0.1rem;
   margin: 1rem 0;
-  border-top: 0.1rem solid $border__color;
+  border-top: 0.1rem solid $divider__color;
 }
 
 .divider[data-content]::after {
@@ -16,6 +16,6 @@
   padding: 0 0.8rem;
   transform: translateY(-1.1rem);
   background: #fff;
-  color: #333;
+  color: $divider__color;
   font-size: 1.2rem;
 }

@@ -1,7 +1,9 @@
-@charset "UTF-8";
 // ------------------------------------
 //  #Jason scss
 // ------------------------------------
+@charset "UTF-8";
+
+@import "settings";
 
 @import "utilities/helpers/align-text";
 @import "utilities/helpers/animation";
